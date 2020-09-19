@@ -1,1 +1,1 @@
-# github-git
+# github-git default repository
