@@ -1,0 +1,200 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	width:100%;
+}
+nav
+{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100vw;
+	height:10vh;
+	transition:.3s; 
+	background-color:orange;
+}
+.logo
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:80px;
+	height:76px;
+
+}
+nav ul
+{
+	display:flex;
+	list-style:none;
+	color:solid;
+}
+.main-nav
+{
+	float:right;
+	margin-top:30px; 
+	list-style:none;
+}
+.main-nav li a
+{
+	font font-family: sans-serif;
+	font-size:18px;
+	padding:10px 30px;
+	text-decoration:none;
+	color:white;
+
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+	background-color:black;
+}
+.front
+{
+	height:100vh;
+	background-color:none;
+	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(welcome.webp);
+	background-position:center;
+	background-size:1550px;
+
+}
+.front h1
+{
+	font-size:40px;
+	position:absolute;
+	top:30vh;
+	left:60vw;
+	width:35vw;
+	text-align:center;
+	text-transform:unset;
+	color:white;  
+}
+.button
+{
+	position:absolute;
+	top:50vh;
+	left:70vw; 
+}
+.btn
+{
+	font-size:13px;
+	margin-right: 25px;
+	padding:10px 30px;
+	text-decoration:none;
+	text-transform: uppercase;
+	color:black;
+	border:1px solid ;
+
+}
+.btn:hover
+{
+	background-color:orange; 
+}
+.front1
+{
+	width:100%;
+	height:500px;
+	background-color: white;
+}
+.front1 h1
+{
+	padding:250px;
+	text-align: center;
+	color:black;
+
+ }
+ .front1:hover
+ {
+ 	background-image: url(pizza.jpg);
+ 	background-position:center;
+ 	background-size:1550px;
+
+ }
+
+ .front1:hover a{
+ 	background-color: white;
+ 	color:white;
+ 	text-decoration: none;
+ }
+
+ .front2
+{
+	width:100%;
+	height:500px;
+	background-color: white;
+}
+.front2 h1
+{
+	padding:250px;
+	text-align: center;
+	color:black;
+
+ }
+ .front2:hover
+ {
+ 	background-image: url(food7.jpg);
+ 	background-position: center;
+ 	background-size: 1550px;
+ }
+ .front2:hover a{
+ 	background-color: white;
+ 	color:white;
+ 	text-decoration: none;
+ }
+
+
+
+ .front3
+{
+	width:100%;
+	height:500px;
+	background-color: grey;
+}
+.front3 h1
+{
+	padding:250px;
+	text-align: center;
+	color:black;
+
+ }
+ .front3:hover
+ {
+ 	background-color: cyan;
+ }
+ .front4
+{
+	width:100%;
+	height:500px;
+	background-color: darkgrey;
+}
+.front4 h1
+{
+	padding:250px;
+	text-align: center;
+	color:white;
+
+ }
+ .front4:hover
+ {
+ 	background-color: cyan;
+ }
+ .front5
+{
+	width:100%;
+	height:500px;
+	background-color: grey;
+}
+.front5 h1
+{
+	padding:250px;
+	text-align: center;
+	color:black;
+
+ }
+ .front5:hover
+ {
+ 	background-color: cyan;
+ }

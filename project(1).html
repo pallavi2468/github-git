@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" type="text/css" href="logincss.css">
+	<link rel="stylesheet" type="text/css" href="signupcss.css">
+<style>
+.l
+{
+	margin-top:-15px;
+	font-size:17.5px;
+}
+.l:hover
+{
+	background-color:black;
+	color:white;
+	border: 1px solid white;
+}
+</style>
+
+
+    <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+
+var modal1= document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == moda1l) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+
+
+</head>
+<body>
+	<nav id="home">
+		
+		<ul class="main-nav">
+			<li><a href="#top"><b>HOME</b></a></li>
+			<li><a href="menu/breakfast/menu.html"><b>MENU</b></a></li>
+			<!--<li><a href="#about"><b>ABOUT US</b></a></li>-->
+      <li><button class="l" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><b>LOGIN</b></button></li>
+      <li><button class="l" onclick="document.getElementById('id02').style.display='block'" style="width:auto;"><b>SIGN UP</b></button></li>
+			
+		</ul>
+	</nav>
+	<div class="front" id="top">
+		<h1>FOODFLIX</h1>
+		<div class="button">
+			<!--<a href="loginpage.html" class="btn btn-one">Login</a>-->
+			<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="menu1/breakfast/menu.html">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="avatar.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <br>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      
+      
+    </div>
+  </form>
+</div>
+
+			<!--<a href="signup.html" class="btn btn-one">Sign Up</a>-->
+
+
+
+<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id02" class="modal1">
+  
+  <form class="modal1-content animate" action="menu1/breakfast/menu.html">
+    <div class="imgcontainer1">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close1" title="Close Modal">&times;</span>
+      <!--<img src="img_avatar2.png" alt="Avatar" class="avatar">-->
+    </div>
+
+    <div class="container1">
+      <label for="uname"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="uname" required>
+
+      <label for="phone"><b>Phone Number</b></label>
+      <input type="text" placeholder="Enter Phone Number" name="phone" required>
+
+      <label for="mail"><b>Email</b></label>
+      <input type="email" placeholder="Enter email" name="mail" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Happy Eating</button>
+      <br>
+      <!--<label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>-->
+    </div>
+
+    <div class="container1" style="background-color:#f1f1f1">
+      
+      
+    </div>
+  </form>
+</div>
+		</div>
+	</div>
+
+	<div class="front2" id=menu">
+		<h1><a href="menu/breakfast/menu.html" style="text-decoration: none;color:black;">MENU</a></h1>
+	</div>
+
+
+    
+
+	
+
+</body>
+</html>
